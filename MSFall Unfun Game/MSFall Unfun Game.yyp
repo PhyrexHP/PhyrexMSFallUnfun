@@ -3,7 +3,16 @@
   "resourceVersion": "1.6",
   "name": "MSFall Unfun Game",
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"obj_startButton","path":"objects/obj_startButton/obj_startButton.yy",},"order":2,},
+    {"id":{"name":"spr_bossFace","path":"sprites/spr_bossFace/spr_bossFace.yy",},"order":1,},
+    {"id":{"name":"obj_bossFace","path":"objects/obj_bossFace/obj_bossFace.yy",},"order":0,},
+    {"id":{"name":"spr_faceFrames","path":"sprites/spr_faceFrames/spr_faceFrames.yy",},"order":0,},
+    {"id":{"name":"Game_Room","path":"rooms/Game_Room/Game_Room.yy",},"order":1,},
+    {"id":{"name":"obj_startManager","path":"objects/obj_startManager/obj_startManager.yy",},"order":1,},
+    {"id":{"name":"spr_startButton","path":"sprites/spr_startButton/spr_startButton.yy",},"order":2,},
+    {"id":{"name":"spr_mouseCollision","path":"sprites/spr_mouseCollision/spr_mouseCollision.yy",},"order":4,},
+    {"id":{"name":"obj_mouseCollision","path":"objects/obj_mouseCollision/obj_mouseCollision.yy",},"order":3,},
+    {"id":{"name":"Start_Screen","path":"rooms/Start_Screen/Start_Screen.yy",},"order":0,},
   ],
   "Options": [
     {"name":"HTML5","path":"options/html5/options_html5.yy",},
@@ -20,7 +29,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Start_Screen","path":"rooms/Start_Screen/Start_Screen.yy",},},
+    {"roomId":{"name":"Game_Room","path":"rooms/Game_Room/Game_Room.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
